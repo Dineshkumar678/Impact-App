@@ -1,0 +1,130 @@
+.charity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 788px;
+  }
+  
+  .charityBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 548px;
+    gap: 80px;
+  }
+  
+  .charityTitle {
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3b4345;
+  }
+  
+  .charityContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 432px;
+    gap: 40px;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 369px;
+    height: 342px;
+    border-radius: 24px;
+  }
+  
+  .cardinfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 369px;
+    height: 159px;
+    background-image: url(charity/whiteframe.png);
+    background-size: cover;
+    border-radius: 24px;
+    text-align: center;
+    gap: 8px;
+    z-index: 1;
+  }
+  
+  .cardtitle {
+    padding-top: 32px;
+    width: 197px;
+    height: 18px;
+    color: #919da1;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+  }
+  
+  .cardnumber {
+    width: 130px;
+    height: 32px;
+    color: #3b4345;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+  
+  .cardphoto img {
+    position: relative;
+    bottom: 52px;
+    width: 369px;
+    height: 235px;
+    border-radius: 24px;
+    z-index: 0;
+  }
+  
+  .charitybutton {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .charitybutton img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .left,
+  .right {
+    padding: 0;
+    border: 0;
+    background-color: white;
+  }
+  
+  /* Optional: Add CSS animation to visually indicate autoplay */
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .carousel-inner.autoplay {
+    animation: fadeInOut 2s infinite;
+  }
+  

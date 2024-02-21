@@ -1,0 +1,40 @@
+.partners{
+    display: flex;
+    width: 100vw;
+    height: 696px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.partner-content{
+    width: 862px;
+    height: 456px;
+
+}
+
+.partnertitle{
+    display: flex;
+    width: 862px;
+    height: 96px;
+    justify-content: center;
+}
+
+.partnertitle p{
+    margin: 0px;
+    width: 190px;
+    height: 36px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(5,120px);
+    grid-auto-rows: 120px;
+    column-gap: 65.5px;
+}
+.items img{
+    width: 120px;
+    height: 120px;
+}

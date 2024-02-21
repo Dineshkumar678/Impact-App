@@ -1,0 +1,53 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 74px;
+    padding: 16px 0px 16px 0px;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+  }
+  
+  .header button {
+    display: flex;
+    width: 169px;
+    padding: 12px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6.671px;
+    border-radius: 36px;
+    background: var(--gray-gray-800, #1D2123);
+    color: var(--gray-gray-00, #FFF);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    img{
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
+  .header button .download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }

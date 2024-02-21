@@ -1,0 +1,68 @@
+.work {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .leftside {
+    position: relative;
+    top: 88px;
+  }
+  
+  .hand img {
+    position: relative;
+    width: 572.33px;
+    height: 520px;
+  }
+  
+  .mobileimg {
+    position: absolute;
+    top: 62px;
+    left: 275px;
+  }
+  
+  .mobileimg img {
+    width: 184.82px;
+    height: 390.17px;
+    border-radius: 22.93px;
+  }
+  
+  .rightside {
+    position: relative;
+    width: 606px;
+    height: 425.73px;
+    top: 116px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 16px 0px 32px;
+    gap: 48px;
+  }
+  
+  .steps div {
+    opacity: 0.3; /* Initial opacity for all steps */
+  }
+  
+  .steps div.active {
+    opacity: 1; /* Full opacity for active step */
+  }
+  
+  .step1 img {
+    width: 558px;
+    height: 96px;
+  }
+  
+  .step2 img {
+    width: 558px;
+    height: 85px;
+  }
+  
+  .step3 img {
+    width: 558px;
+    height: 90px;
+  }
+  

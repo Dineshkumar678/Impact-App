@@ -1,0 +1,75 @@
+.lastpitch{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 457px;
+    background-image: url(images/lastsignup.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outerdiv{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 631px;
+    height: 195.93px;
+    gap: 64px;
+    align-items: center;
+
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 631px;
+    height: 80px;
+    padding: 0px 16px 0px 16px;
+    gap: 16px;
+}
+
+.text1{
+    width: 429px;
+    height: 28px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 28px;
+    text-align: center;
+}
+
+.text2{
+    width: 599px;
+    height: 36px;
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.playsotre{
+    display: flex;
+    width: 367.69px;
+    height: 51.93px;
+    gap: 14.31px;
+
+}
+
+.playsotre .googleicon{
+    width: 177.01px;
+    height: 51.93px;
+
+}
+
+.playsotre .appleicon{
+    width: 177.01px;
+    height: 51.75px;
+    border-radius: 5.36px;
+
+}
